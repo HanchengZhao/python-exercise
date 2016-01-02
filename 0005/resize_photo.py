@@ -12,7 +12,7 @@ def resize_pic(path, width = 640, height = 1136):
 		print (change)
 		im.resize((int(w / change),int (h / change))).save('result.jpg')
 	else :
-		print ("the picture does not exceed iPhone5's resolution")
+		print ("The picture' pixels does not exceed iPhone5's resolution")
 
 if __name__ == '__main__':
 	resize_pic('image.png')
